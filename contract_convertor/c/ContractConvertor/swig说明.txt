@@ -1,0 +1,1 @@
+swig -java -package com.longsheng.xueqiao.contractconvertor.swig -outdir com/longsheng/xueqiao/contractconvertor/swig ContractConvertor.i

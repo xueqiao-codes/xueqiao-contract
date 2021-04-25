@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Test">
+      <UniqueIdentifier>{6bd75ce7-cf79-4093-a732-bace3beb92d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Ctp">
+      <UniqueIdentifier>{0c08e560-2819-4ea7-8e30-cc47c52f4aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\EsunnyV9">
+      <UniqueIdentifier>{2fa57ce1-845d-4559-a27f-2be6bf381cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\EsunnyV3">
+      <UniqueIdentifier>{66506fbe-ede2-4bcd-b707-9fa49259a85d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataStruct.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataType.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContractConvertor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContractConvertor_wrap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CtpUtil.c">
+      <Filter>源文件\Ctp</Filter>
+    </ClCompile>
+    <ClCompile Include="CtpContractConvertor.c">
+      <Filter>源文件\Ctp</Filter>
+    </ClCompile>
+    <ClCompile Include="EsunnyV9ContractConvertor.c">
+      <Filter>源文件\EsunnyV9</Filter>
+    </ClCompile>
+    <ClCompile Include="EsunnyV3ContractConvertor.c">
+      <Filter>源文件\EsunnyV3</Filter>
+    </ClCompile>
+    <ClCompile Include="EsunnyV3Util.c">
+      <Filter>源文件\EsunnyV3</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\test.cc">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContractConvertor.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CtpUtil.h">
+      <Filter>源文件\Ctp</Filter>
+    </ClInclude>
+    <ClInclude Include="CtpContractConvertor.h">
+      <Filter>源文件\Ctp</Filter>
+    </ClInclude>
+    <ClInclude Include="EsunnyV9ContractConvertor.h">
+      <Filter>源文件\EsunnyV9</Filter>
+    </ClInclude>
+    <ClInclude Include="EsunnyV3ContractConvertor.h">
+      <Filter>源文件\EsunnyV3</Filter>
+    </ClInclude>
+    <ClInclude Include="EsunnyV3Util.h">
+      <Filter>源文件\EsunnyV3</Filter>
+    </ClInclude>
+    <ClInclude Include="CtpDataStruct.h">
+      <Filter>源文件\Ctp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ContractConvertor.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ContractConvertor.i">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
